@@ -27,6 +27,7 @@ app.get((req, res) => {
       catch (exception_var) {
         funct()
       }
+      rollbar.log('catch')
       res.status(200).send(funct())
 })
 
