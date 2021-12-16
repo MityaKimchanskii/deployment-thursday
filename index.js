@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 
 app.get((req, res) => {
     try {
-        console.log('OK')
+        funct()
       }
       catch (exception_var) {
         console.log('error')
