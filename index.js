@@ -25,7 +25,7 @@ app.get((req, res) => {
         funct()
       }
       catch (exception_var) {
-        console.log('error')
+        funct()
       }
 })
 
